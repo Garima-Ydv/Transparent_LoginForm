@@ -1,0 +1,60 @@
+*{
+    margin:0px 0px;
+    padding: 0px 0px;
+}
+body{
+    background: url(image.png) no-repeat center center fixed;
+    background-size: cover;
+}
+div h1{
+    display: inline-block;
+    border-bottom:4px solid transparent;
+    border-image:linear-gradient(90deg,rgb(109, 139, 195),rgb(196, 208, 240),rgb(25, 105, 255));
+    border-image-slice:1;
+    padding:4px 4px;
+    margin:3px 4px;
+    margin-top: 34px;
+}
+.container{
+    color:white;
+    position: absolute;
+    top:10%;
+    left:40%;
+    background: none;
+}
+div i{
+    padding:2px 2px;
+    margin:2px 6px;
+}
+input{
+    background: none;
+    color:white;
+    padding:4px 4px;
+    margin:4px 4px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.box{
+    padding:4px 4px;
+    margin:20px 4px;
+    outline: none;
+    border-bottom:2px solid transparent;
+    border-image:linear-gradient(90deg,rgb(225, 104, 116),rgb(206, 231, 194),rgb(98, 143, 247));
+    border-image-slice:1;
+    /* box-shadow:0  1px 10px rgba(248, 245, 245, 0.891); */
+}
+.btn{
+    padding:10px 13px;
+    margin:10px 5px;
+    font-size: 16px;
+    background: none;
+    color:white;
+    font-weight:bold;
+    border-radius:20px;
+    /* border:2px solid black; */
+    border:2px solid transparent;
+    border-image:linear-gradient(90deg,rgb(243, 166, 243),rgb(206, 231, 194),rgb(85, 85, 250));
+    border-image-slice:1;
+    /* box-shadow:0  1px 10px rgba(248, 245, 245, 0.891); */
+}
